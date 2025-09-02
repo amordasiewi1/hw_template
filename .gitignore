@@ -1,0 +1,14 @@
+# Ignore compiled MATLAB files
+*.mex*
+*.mat
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# other
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
