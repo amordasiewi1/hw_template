@@ -1,0 +1,9 @@
+# to suppress warnings across all .tex files, just do "-n<num>" to the following list, where <num> is the number of the warning
+
+CmdLine
+{
+  -n1
+  -n3
+  -n8
+  -n13
+}

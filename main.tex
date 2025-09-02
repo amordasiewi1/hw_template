@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,bookmark,sectsty,mathtools,leftidx,textcomp,gensymb,multirow,bm,float,graphicx,wasysym,listings,varwidth,color,hyperref,layout,url,matlab-prettifier,tcolorbox}
+
+% ---- suppress box warnings ----
+\hbadness=10000   % dont report underfull hbox warnings
+\hfuzz=50pt       % ignore overfull hbox warnings < 50pt
+
+% paths
+\graphicspath{ {./images/} }
+\makeatletter
+\def\input@path{{problems/}}
+\makeatother
+
+% margins
+\setlength{\textwidth}{7.0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textheight}{9.0in}
+\setlength{\parindent}{0.3in}
+
+% custom commands
+% answer - boxes answer out
+\newcommand{\answer}[1]{
+  \begin{center}
+    \fbox{\begin{varwidth}{\maxdimen}
+      #1
+    \end{varwidth}}
+  \end{center}
+}
+
+% fig - figure for image w/ caption
+\newcommand{\fig}[4]{%
+  \begin{minipage}[t]{\linewidth}
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=#1\linewidth]{#2}
+      \caption{#3}\label{#4}
+    \end{figure}
+  \end{minipage}
+  \break \\
+}
+
+% matlab code listing command
+\newcommand{\matlabfile}[1]{%
+  \texttt{\detokenize{#1}}%
+  \vspace{2pt}%
+  \lstinputlisting[
+    frame=single,
+    numbers=left,
+    style=Matlab-editor
+  ]{matlab/#1}%
+  \vspace{10pt}%
+}
+
+% title
+\title{HW Template}
+\author{Alessandro Mordasiewicz - \texttt{amordasi@purdue.edu}}
+\date{Due:}
+
+% document
+\begin{document}
+
+\maketitle
+
+\input{problem1}
+
+\include{problem2}
+
+\end{document}
