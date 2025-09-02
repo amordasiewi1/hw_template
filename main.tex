@@ -1,5 +1,5 @@
 \documentclass[12pt]{article}
-\usepackage{amsmath,bookmark,sectsty,mathtools,leftidx,textcomp,gensymb,multirow,bm,float,graphicx,wasysym,listings,varwidth,color,hyperref,layout,url,matlab-prettifier,tcolorbox}
+\usepackage{anyfontsize,amsmath,bookmark,sectsty,mathtools,leftidx,textcomp,gensymb,multirow,bm,float,graphicx,wasysym,listings,varwidth,color,hyperref,layout,url,matlab-prettifier,tcolorbox}
 
 % ---- suppress box warnings ----
 \hbadness=10000   % dont report underfull hbox warnings
@@ -11,12 +11,12 @@
 \def\input@path{{problems/}}
 \makeatother
 
+\makeatletter
+\renewcommand\normalsize{\fontsize{13}{16}\selectfont}
+\makeatother
+
 % margins
-\setlength{\textwidth}{7.0in}
-\setlength{\oddsidemargin}{-0.25in}
-\setlength{\topmargin}{-0.5in}
-\setlength{\textheight}{9.0in}
-\setlength{\parindent}{0.3in}
+\usepackage[letterpaper,margin=0.8in]{geometry}
 
 % custom commands
 % answer - boxes answer out
@@ -30,6 +30,7 @@
 
 % fig - figure for image w/ caption
 \newcommand{\fig}[4]{%
+  \par\noindent
   \begin{minipage}[t]{\linewidth}
     \begin{figure}[H]
       \centering
@@ -42,6 +43,7 @@
 
 % matlab code listing command
 \newcommand{\matlabfile}[1]{%
+  \vspace{0.4\baselineskip}\par\noindent%
   \texttt{\detokenize{#1}}%
   \vspace{2pt}%
   \lstinputlisting[
@@ -53,8 +55,8 @@
 }
 
 % title
-\title{HW Template}
-\author{Alessandro Mordasiewicz - \texttt{amordasi@purdue.edu}}
+\title{\Huge \textbf{HW Template}}
+\author{Alessandro Mordasiewicz -- \texttt{amordasi@purdue.edu}}
 \date{Due:}
 
 % document

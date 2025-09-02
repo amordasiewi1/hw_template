@@ -8,6 +8,8 @@ INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\anyfontsize\anyfontsize.sty
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\anyfontsize\anyfontsize.sty
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
@@ -249,6 +251,13 @@ INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\environ\environ.sty
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\environ\environ.sty
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\trimspaces\trimspaces.sty
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\main.aux
@@ -258,6 +267,7 @@ INPUT .\problems\problem2.aux
 INPUT .\problems\problem2.aux
 INPUT problems\problem2.aux
 OUTPUT main.aux
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 OUTPUT main.pdf
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -268,6 +278,8 @@ INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-s
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
@@ -299,6 +311,12 @@ INPUT .\problems\problem1.tex
 INPUT problems\problem1.tex
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\images\example.png
+INPUT .\images\example.png
+INPUT .\images\example.png
+INPUT .\images\example.png
+INPUT .\images\example.png
+INPUT .\images\example.png
 INPUT .\problems\problem2.tex
 INPUT .\problems\problem2.tex
 INPUT C:\Users\amord\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -306,6 +324,10 @@ OUTPUT problems\problem2.aux
 INPUT .\problems\problem2.tex
 INPUT .\problems\problem2.tex
 INPUT problems\problem2.tex
+INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
+INPUT .\matlab\lucas.m
+INPUT .\matlab\lucas.m
+INPUT matlab\lucas.m
 INPUT main.aux
 INPUT .\problems\problem2.aux
 INPUT .\problems\problem2.aux
@@ -314,7 +336,5 @@ INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
 INPUT C:\Users\amord\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
