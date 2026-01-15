@@ -1,5 +1,5 @@
-\documentclass[12pt]{article}
-\usepackage{anyfontsize,amsmath,bookmark,sectsty,mathtools,leftidx,textcomp,gensymb,multirow,bm,float,graphicx,wasysym,listings,varwidth,color,hyperref,layout,url,matlab-prettifier,tcolorbox}
+\documentclass[11pt]{article}
+\usepackage{anyfontsize,amsmath,bookmark,sectsty,mathtools,leftidx,textcomp,gensymb,multirow,bm,float,graphicx,wasysym,listings,varwidth,color,hyperref,layout,url,matlab-prettifier,tcolorbox,cancel}
 
 % ---- suppress box warnings ----
 \hbadness=10000   % dont report underfull hbox warnings
@@ -9,10 +9,6 @@
 \graphicspath{ {./images/} }
 \makeatletter
 \def\input@path{{problems/}}
-\makeatother
-
-\makeatletter
-\renewcommand\normalsize{\fontsize{12}{16}\selectfont}
 \makeatother
 
 % margins
@@ -49,9 +45,24 @@
   \lstinputlisting[
     frame=single,
     numbers=left,
-    style=Matlab-editor
+    style=Matlab-editor,
+    basicstyle=\scriptsize\ttfamily
   ]{matlab/#1}%
   \vspace{10pt}%
+}
+
+\newcommand{\uvec}[1]{\hat{\mathbf{#1}}}
+\newcommand{\threebythree}[9]{%
+  \begin{bmatrix}
+    #1 & #2 & #3 \\
+    #4 & #5 & #6 \\
+    #7 & #8 & #9
+  \end{bmatrix}
+}
+\newcommand{\threevec}[3]{%
+  \begin{bmatrix}
+    #1 \\ #2 \\ #3
+  \end{bmatrix}
 }
 
 % title
