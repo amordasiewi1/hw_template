@@ -1,5 +1,27 @@
-\documentclass[11pt]{article}
-\usepackage{anyfontsize,amsmath,bookmark,sectsty,mathtools,leftidx,textcomp,gensymb,multirow,bm,float,graphicx,wasysym,listings,varwidth,color,hyperref,layout,url,matlab-prettifier,tcolorbox,cancel}
+\documentclass[12pt]{article}
+\usepackage{anyfontsize}
+\usepackage{amsmath}
+\usepackage{bookmark}
+\usepackage{sectsty}
+\usepackage{mathtools}
+\usepackage{leftidx}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{multirow}
+\usepackage{bm}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{wasysym}
+\usepackage{listings}
+\usepackage{varwidth}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{layout}
+\usepackage{url}
+\usepackage{matlab-prettifier}
+\usepackage{tcolorbox}
+\usepackage{cancel}
+\usepackage{fancyhdr}
 
 % ---- suppress box warnings ----
 \hbadness=10000   % dont report underfull hbox warnings
@@ -65,18 +87,30 @@
   \end{bmatrix}
 }
 
-% title
-\title{\Huge \textbf{HW Template}}
+\newcommand{\mytitle}{HW Template} % TITLE GOES HERE
+
+\title{\Huge \textbf{\mytitle}}
 \author{Alessandro Mordasiewicz -- \texttt{amordasi@purdue.edu}}
-\date{Due:}
+\date{}
+
+% fancy header
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\mytitle}
+\fancyhead[R]{\leftmark} 
+\fancyfoot[C]{\thepage}
+
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}} % removes section prefix in header
 
 % document
 \begin{document}
-
 \maketitle
+\thispagestyle{fancy}
 
 \input{problem1}
 
 \include{problem2}
+
+% vvvvvvv   rest of problem inputs go here   vvvvvvv
 
 \end{document}
